@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,7 +70,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\app\app.js" />
+    <None Include="Scripts\app\_references.js" />
+    <Content Include="Scripts\app\my\contoller.js" />
+    <Content Include="Scripts\jasmine-html.js" />
+    <Content Include="Scripts\jasmine.js" />
+    <Content Include="Scripts\test\unit\myCtrlSpec.js" />
     <Content Include="Scripts\test\unit\simple.js" />
+    <None Include="Scripts\test\unit\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
