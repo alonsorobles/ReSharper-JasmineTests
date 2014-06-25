@@ -48,7 +48,7 @@
                     value = val;
                 }));
 
-            it('beforeEach with injection that is not wrapped in an anonymous function will cause tests to not be run', function () {
+            it('beforeEach with injection that is not wrapped in an anonymous function will prevent tests like this one from being run', function () {
                 inject(function (val) {
                     value += val;
                     expect(value).toBe(2);
